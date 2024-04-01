@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clothing Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search by vendor or title">
+  </div>
+  <div class="buttons">
+    <button onclick="fetchAndDisplay('All')">All</button>
+    <button onclick="fetchAndDisplay('Men')">Men</button>
+    <button onclick="fetchAndDisplay('Women')">Women</button>
+    <button onclick="fetchAndDisplay('Kids')">Children</button>
+  </div>
+  <div id="clothingList" class="clothing-list">
+    
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
